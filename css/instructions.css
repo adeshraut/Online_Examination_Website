@@ -1,0 +1,27 @@
+
+html body{	
+	font-family: 'Playfair Display', serif;
+}
+
+h3
+{
+
+	font-size : 25px;
+}
+p {
+	font-size: 20px;
+}
+
+#submit
+{
+	padding: 10px 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: -10px;
+	padding: 10px 20px;
+	margin-left: 20px;
+	width: 10px;	
+	padding top: 40px;
+	border-radius: 5px;
+
+}

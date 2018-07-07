@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="uft-8"/>
+	<title>Exam Page</title>
+	<link rel='stylesheet' type='text/css' href='css/reset.css' />
+	<link rel='stylesheet' type='text/css' href='css/stylesheet.css' />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+	<!--<div id="navbar">
+		<ul class="navbar-left" >
+			<li class="home"><a href="index.html">Home</a></li>
+		</ul>
+		<ul class="navbar-right">
+			<li class="register"><a href="register.html">Register</a></li>
+			<li class="log-in"><a href="log-in.html">Log In</a></li>
+		</ul>
+	</div>-->
+
+	<div id="container">
+		<h1>Embedded Systems and Internet of Things</h1>
+			<p> 
+				Welcome to Exam! Answer the questions below. Your score will be displayed once all the questions have been answered. Good Luck!
+			</p>
+		<div id="main">
+			<h3 id="questions" class="card"></h3>
+			<div id="choices" class="card">
+				<input type="radio" name="choice" value = 0><span id="answer0"></span>
+				<br />
+				<input type="radio" name="choice" value = 1><span id="answer1"></span>
+				<br />
+				<input type="radio" name="choice" value = 2><span id="answer2"></span>
+				<br />
+				<input type="radio" name="choice" value = 3><span id="answer3"></span>
+			</div>
+			<div>
+			<br />
+				<!--<button id="backBtn">Back</button>-->
+				<button id="nextBtn">Next</button>
+			</div>
+		</div>
+	</div>
+	<script src='js/script.js'></script>
+</body>
+</html>

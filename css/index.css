@@ -1,0 +1,293 @@
+/*By Default*/
+ul{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+fieldset{
+	margin:10% 10%;
+	padding: 5%;
+}
+legend{
+	font-size: 25px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.btn-danger{
+	margin-left: 30%;
+	background-color: #f44336;
+	float: left;
+}
+.btn-success{
+	margin-right: 30%;
+	background-color: #4CAF50;
+	float: right;
+}
+.Center{
+	margin:10% 10% 15% 10%;
+	padding: 100px;
+}
+.center{
+	margin:15% 10% 15% 10%;
+	padding: 100px;
+}
+.green{
+	background-color: #32CD32;
+}
+/*Nav-Bar  START*/
+.navb  {
+  	list-style-type: none;
+	overflow: hidden;
+    background-color: #333;
+    width: 100%;
+
+}
+.navb ul li {
+  	display: inline-block;
+}
+
+.nav-left li {
+    float: left;
+}
+.nav-right li {
+    float: right;
+}
+.navb li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navb li a:hover {
+    background-color: #111;
+}
+/*Nav-Bar End*/
+
+/*General Modal*/
+.modal{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	overflow: auto;
+	padding: 50px 0;
+	box-sizing: border-box;
+}
+
+.modalContent{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		color: #fff;
+		margin: 0 auto ;
+		padding: 20px;
+		width: 50%;
+		transform: translate(-50%,-50%);
+		animation: formDown .5s;
+}
+
+/*Login Box*/
+.loginBox{
+	width: 60%;
+	height: 420px;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 30px 30px;
+}
+
+.loginBox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginBox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginBox input[type="text"] , .loginBox input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginBox input[type="text"]:focus , .loginBox input[type="password"]:focus {
+	border-bottom: 1px solid #007c8e;
+}
+
+.loginBox input[type="submit"] {
+	border: none;
+	outline: none;
+	background: #007c8e;
+	color: #fff;
+	height: 40px;
+	font-size: 18px;	
+}
+
+.loginBox input[type="submit"]:hover {
+	cursor: pointer;
+	background: #204345;
+}
+
+.loginBox input[type="checkbox"]{
+	width: 20px;
+}
+
+.loginBox a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #ff;
+}
+
+.loginBox a:hover {
+	color: #007c8e;
+}
+
+/*Signup Box*/
+.signupBox{
+	width: 60%;
+	height: auto;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	box-sizing: border-box;
+	margin: 0 175px;
+	padding: 30px 30px;
+	position: fixed;
+}
+
+.signupBox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.signupBox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.signupBox input[type="text"] , .signupBox input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.signupBox input[type="text"]:focus , .signupBox input[type="password"]:focus {
+	border-bottom: 1px solid #007c8e;
+}
+
+.signupBox input[type="submit"] {
+	border: none;
+	outline: none;
+	background: #007c8e;
+	color: #fff;
+	height: 40px;
+	font-size: 18px;	
+}
+
+.signupBox input[type="submit"]:hover {
+	cursor: pointer;
+	background: #204345;
+}
+
+.signupBox input[type="radio"]{
+	width: 20px;
+}
+
+.signupBox a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #ff;
+}
+
+.signupBox a:hover {
+	color: #007c8e;
+}
+
+.close {
+	float: right;	
+	font-size: 36px;
+	cursor: pointer;
+
+}
+
+/*Modal Animation*/
+@keyframes formDown {
+	from {
+		top: -100px;
+		opacity: 0;
+	}
+	to {
+		top: calc(50%);
+		opacity: 1;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.modalContent {
+		width: 70%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.modalContent {
+		width: 80%;
+	}	
+}
+
+@media (max-width: 575px) {
+	.modalContent {
+		width: 80%;
+	}	
+}
+
+.btn{
+	background: #007C8E;
+	padding: 10px 20px;
+	border: none;
+	color: #fff;
+	font-size: 16px;	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: all .5s ease;
+	
+}
+
+.btn:hover{
+	padding: 15px 30px;
+	background: #204345;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+ 	
+#exam-names{list-style: none;}
+
+table{table-layout: fixed;width: 50%;}
+
+caption{text-align: center;}
+
+td{font-size: 18px;padding-top: 10px;border-bottom: dotted;text-align:center;}

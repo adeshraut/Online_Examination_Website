@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+</head>
+
+<body>
+
+	<!-- NAVBAR -->
+	
+	<nav class="navb">
+		<div class="nav-left">
+			<ul>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="contact.php">Contact</a></li>
+				<li><a href="about.php">About</a></li>
+			</ul>
+		</div>
+		<div class="nav-right">
+			<ul>
+				<li class="green"><a href="#" id="loginBtn" onclick="loginFun()">Log In</a></li>   
+				<li><a href="#" id="signupBtn" onclick="signupFun()">Create an Account</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<h2>Developed by-</h2>
+	<blockquote>1) Adesh Raut TE-B 3152102<br></blockquote>	
+	<blockquote>2) Akshay Potdar TE-B 3152099<br></blockquote>
+	<blockquote>3) Rushikesh Singhal TE-B 3152115<br></blockquote>
+
+	<h2>Use-</h2>
+	<blockquote>This website can be used by students while appearing for the online exam.
+	It displays various exams in each link for which the student needs to appear.</blockquote>
+
+	<h2>Disclosure-</h2>
+	<blockquote>Partners: MAEER'S MIT College Of Engineering</br>
+	Legal process: Non-profit Org for a Web Technology website project.</blockquote>
+
+	<h2>Storage-</h2>
+	<blockquote>Where does your information live- The information credentials are stored on our database that is linked with Xampp.<br>how long do we keep your info- We keep your information to give recommendations and help refine your search for future uses.</blockquote>
+
+	<h2>About-</h2>
+	<blockquote>This website is frequently used to conduct online exam.<br>
+		Changes to this website: The website cannot be changed by the user and can only be altered by admin as per the needs/demands of the website.<br>
+		A proper notice will be issued in such a case.</blockquote>
+
+
+	<h2>Contact us:</h2>
+	<blockquote>Users can contact us with their queries by using the "contact us" page. The page can be used to raise a problem with the site or just for basic feedback etc.</blockquote>
+			
+</body>
+</html>
